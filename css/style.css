@@ -29,7 +29,7 @@ header section#caixa1{
 }
 
 header{
-    border: 2px dashed grey;
+    /* border: 2px dashed grey; */
     height: 650px;
     width: 100vw;
 }
