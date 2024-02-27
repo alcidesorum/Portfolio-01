@@ -16,12 +16,13 @@
 
 body{
     width: 100vw;
+    overflow-x: hidden;
     
 }
 
 header section#caixa1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 10px;
     margin-top: 20px;
@@ -38,14 +39,14 @@ header img#contato{
     height: 130px;
     animation: rotacao 8s linear infinite;
 }
-/* @keyframes rotacao {
+@keyframes rotacao {
     from {
       transform: rotate(0deg);
     }
     to {
       transform: rotate(360deg);
     }
-} */
+} 
 /*Ta gerando problema na barra de rolagem */
 
 header h1 {
@@ -61,16 +62,17 @@ header h1 {
 }
 
 header h2{
-    /* width: 100px;
-    height: 100px; */
+     width: 90%;
+    /*height: 100px; */
 
     font-family: var(--fonte);
-    font-weight: 200;
-    font-size: 23px;
+    font-weight: 300;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.842);
 
     margin-left: 20px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 42px;
 
 }
 
@@ -78,7 +80,7 @@ header a{
     text-decoration: none ;
     font-family: var(--fonte);
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 18px;
 
     padding: 15px;
     margin-left: 20px;
