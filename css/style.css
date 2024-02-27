@@ -16,17 +16,37 @@
 
 body{
     width: 100vw;
-    height: 100vw;
+    
+}
+
+header section#caixa1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-top: 20px;
 }
 
 header{
     border: 2px dashed grey;
+    height: 650px;
+    width: 100vw;
 }
 
 header img#contato{
     width: 130px;
     height: 130px;
+    animation: rotacao 8s linear infinite;
 }
+/* @keyframes rotacao {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+} */
+/*Ta gerando problema na barra de rolagem */
 
 header h1 {
     font-family: var(--fonte);
@@ -34,16 +54,23 @@ header h1 {
     font-size: 55px;
     font-weight: 800;
 
-    line-height: 65px;
+    line-height: 60px;
     letter-spacing: -2px;
+    margin-left: 20px;
 
 }
 
 header h2{
+    /* width: 100px;
+    height: 100px; */
 
     font-family: var(--fonte);
     font-weight: 200;
-    font-size: 25px;
+    font-size: 23px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 
 }
 
@@ -53,11 +80,13 @@ header a{
     font-weight: 500;
     font-size: 1.5em;
 
-    padding: 10px;
+    padding: 15px;
+    margin-left: 20px;
+    
 
     
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 25px;
     color: rgba(0, 0, 0, 0.842);
 
 }
