@@ -24,8 +24,8 @@ header section#caixa1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
-    margin-top: 20px;
+    margin: 17px 25px 13px -14px;
+    
 }
 
 header{
@@ -35,9 +35,9 @@ header{
 }
 
 header img#contato{
-    width: 130px;
-    height: 130px;
-    animation: rotacao 8s linear infinite;
+    width: 90px;
+    height: 90px;
+    animation: rotacao 9s linear infinite;
 }
 @keyframes rotacao {
     from {
