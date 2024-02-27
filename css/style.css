@@ -17,7 +17,16 @@
 body{
     width: 100vw;
     overflow-x: hidden;
+    animation: fade 0.4s ease-in-out ;
     
+}
+@keyframes fade {
+    0% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0.9;
+    }
 }
 
 header section#caixa1{
@@ -37,6 +46,7 @@ header{
 header img#contato{
     width: 90px;
     height: 90px;
+    
     animation: rotacao 9s linear infinite;
 }
 @keyframes rotacao {
@@ -47,7 +57,6 @@ header img#contato{
       transform: rotate(360deg);
     }
 } 
-/*Ta gerando problema na barra de rolagem */
 
 header h1 {
     font-family: var(--fonte);
@@ -83,7 +92,7 @@ header a{
     font-size: 18px;
 
     padding: 15px;
-    margin-left: 20px;
+    margin: 0px 0px 0px 20px;
     
 
     
@@ -91,4 +100,25 @@ header a{
     border-radius: 25px;
     color: rgba(0, 0, 0, 0.842);
 
+}
+
+header a:hover{
+    color: white;
+    background-color: black;
+    
+    transition-duration: 0.3s;
+
+    
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.541);
+
+    
+
+}
+/*nao consigo fazer o botão se mover para cima*/
+
+header a:not(:hover){
+    background: white;
+    color: black;
+    transition-duration: 0.3s;
 }
