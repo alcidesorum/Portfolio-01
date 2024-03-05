@@ -122,3 +122,40 @@ header a:not(:hover){
     color: black;
     transition-duration: 0.3s;
 }
+main h1{
+    font-family: var(--fonte);
+    font-size: 2.3em;
+    margin-left: 20px;
+
+}
+main div{
+    border: solid brown 1px;
+}
+
+main div img{
+    width: 80vw;
+    height: 180px;
+    text-align: center;
+}
+
+main div h2{
+    font-family: var(--fonte);
+    font-size: 2.3em;
+    font-weight: 800;
+    margin-left: 20px;
+    letter-spacing: -0.5px;
+
+
+}
+
+
+main div p{
+    display: block;
+    font-family: var(--fonte);
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.76);
+
+    width: 90vw;
+    text-align: center;
+}
