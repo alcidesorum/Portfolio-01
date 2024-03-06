@@ -12,6 +12,7 @@
 
 :root{
     --fonte: 'Montserrat';
+    --cor1: #147ce5;
 }
 
 body{
@@ -107,6 +108,8 @@ header a{
 header a:hover{
     color: white;
     background-color: black;
+
+    transform: translateY(-5px); /* Translada a div para cima em 5 pixels */
     
     transition-duration: 0.3s;
 
@@ -131,9 +134,9 @@ main h1 {
     font-family: var(--fonte);
     font-size: 2.3em;
     margin: 0px 0px 2px 10px;
-  }
+}
 
-  main hr{
+main hr{
     width: 85vw;
     margin: 0px 0px 40px 10px;
 
@@ -142,21 +145,36 @@ main h1 {
     border: none; /* Remove a borda padrão */
 
     
-  }
+}
   
-
 
 /*   --//--   */
 
-main div{
+main div.caixa2{
 
-   
+    /* border: 2px solid brown; */
+    border-radius: 10px;
+    width: 89vw;
+    height: 400px;
+    margin: 0px 0px 30px 0px;
+
     display: flex; /* Adiciona flex container */
     flex-direction: column; /* Empilha os elementos verticalmente */
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
 
-    margin: 2px 2px 2px 2px ;
+    margin: 0px 0px 30px 0px ;
+}
+
+main div.caixa2:hover{
+    background-color: #147ce515;
+    color: var(--cor1);
+    transform: translateY(-5px); /* Translada a div para cima em 5 pixels */
+    transition-duration: 0.3s;
+}
+main div.caixa2:not(:hover){
+    background-color: white;
+    transition-duration: 0.3s;
 }
 
 main div img{
@@ -186,7 +204,6 @@ main div p{
     font-family: var(--fonte);
     font-size: 1.2em;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.76);
     
     
     width: 82vw;
