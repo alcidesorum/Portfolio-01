@@ -127,18 +127,29 @@ header a:not(:hover){
 
 /*   --//--   */
 
-main h1{
+main h1 {
     font-family: var(--fonte);
     font-size: 2.3em;
+    margin: 0px 0px 2px 10px;
+  }
+
+  main hr{
+    width: 85vw;
     margin: 0px 0px 40px 10px;
 
-}
+    height: 1px; /* Ajuste o valor conforme desejado */
+    background-color: black; /* Cor do traço horizontal */
+    border: none; /* Remove a borda padrão */
+
+    
+  }
+  
 
 
 /*   --//--   */
 
 main div{
-    border: solid brown 1px;
+
    
     display: flex; /* Adiciona flex container */
     flex-direction: column; /* Empilha os elementos verticalmente */
