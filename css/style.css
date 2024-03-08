@@ -186,6 +186,7 @@ main div.caixa2:not(:hover){
 main div img{
     width: 100%;
     height: 50%;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
@@ -214,4 +215,52 @@ main div p{
     
     width: 82vw;
     text-align: left;
+}
+
+/*    fim do conteudo principal     */
+
+footer{
+    padding: 10px;
+
+}
+
+footer h2{
+    font-family: var(--fonte);
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: 800;
+
+}
+
+footer section a {
+    display: inline-block; /* Coloca os links lado a lado */
+    margin: 0 0px; /* Adiciona espaçamento horizontal entre os links */
+}
+
+
+footer section img{
+    display: inline-block;
+    width: 47px;
+    margin: 10px 5px 0px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+footer section img:hover{
+    transition: transform 0.5s, background-color 8s;
+
+    background-color: #147ce5;
+    
+    transform: translate(-0px, -3px);
+}
+
+footer section img:not(:hover) {
+    transition: transform 0.5s, background-color 4s;
+
+    background-color: #ffffff;
+
+
+    transform: translate(-0px, 3px);
+
 }
