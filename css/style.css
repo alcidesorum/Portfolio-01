@@ -32,6 +32,8 @@ body{
     }
 }
 
+                /*Cabeçario*/
+
 header section#caixa1{
     display: flex;
     justify-content: space-between;
@@ -129,12 +131,13 @@ header a:not(:hover){
     transition-duration: 0.3s;
 }
 
-/*   --//--   */
+                /*  fim do Cabeçario  */
+                    /*   --//--   */
 
 main h1 {
     display: block;
     font-family: var(--fonte);
-    font-size: ;
+    /* font-size: ; */
     margin: 0px 0px 2px 10px;
 }
 
