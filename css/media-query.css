@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 500px) and (max-width: 760px){
-    header{
-        /* height: 1000px; */
-    }
+    /* header{
+        /* height: 1000px; 
+    } */
 
     header section#caixa1{
         margin: -10px 48px 63px -21px;
@@ -13,10 +13,11 @@
         width: 150px;
         height: 150px;
     }
+    
 
     header img{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
 
     }
      /* header section div#caixa88 {
@@ -51,7 +52,7 @@
 
         width: 80%;
         font-size: 90px;
-        line-height: 70px;
+        line-height: 80px;
     }
 
     header h2{
@@ -93,7 +94,8 @@
 }
 
 @media screen and (min-width: 760px) and (max-width:990px){
-
+    /*inicio do footer*/
+    
     main div.caixa2{
         margin: 0px 0px 60px 0px;
     }
@@ -116,7 +118,7 @@
     }
 
     footer h2{
-        font-size: 35px;
+        font-size: 45px;
     }
 
     footer section img{
