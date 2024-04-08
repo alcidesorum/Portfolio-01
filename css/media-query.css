@@ -171,7 +171,7 @@
 
 @media screen and (min-width: 990px ){
     header section#caixa1{
-        margin: -10px 48px 63px -21px;
+        margin: -10px 48px 25px -21px;
     }
 
     header img#contato{
@@ -192,7 +192,7 @@
          flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
         /* margin: -100px 48px 9px -21px; */
     }
 
@@ -202,6 +202,7 @@
         /* width: 80%; */
         font-size: 90px;
         line-height: 80px;
+        height: 80%;
     }
 
     header h2{
@@ -218,4 +219,47 @@
         /* margin-top: 100px; */
     }
 
+    /*inicio do main*/
+
+    main h1{
+        font-size: 40px;
+    }
+
+    main div.caixa2{
+        margin: 30px 0px 80px 40px;
+    }
+
+    main div.caixa2 img{
+        
+
+    }
+
+    main div h2{
+        font-size: 50px;
+
+    }
+
+    main div p{
+        font-size: 2em;
+
+    }
+
+    /*inicio do footer*/
+
+    footer{
+        margin-bottom: 40px;
+        margin-top: 130px;
+        margin-left: 35px;
+    }
+
+    footer h2{
+        font-size: 45px;
+    }
+
+    footer section img{
+        width: 60px;
+    }
+
+
 }
+
