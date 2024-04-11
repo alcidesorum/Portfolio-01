@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+:root{
+    --fonte: 'Montserrat';
+    --cor1: #147ce5;
+}
+
+body{
+    
+    overflow-x: hidden;
+    padding: 32px 16px 24px 16px;
+    /* animation: fade 0.4s ease-in-out ; */
+    /* desabilitei a animação por enquanto */
+    
+}
+@keyframes fade {
+    0% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0.9;
+    }
+}
+
+                /*Cabeçario*/
+
+header section#caixa1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: -10px 48px 9px -21px;
+    
+}
+
+header{
+    /* border: 2px dashed grey; */
+    /* height: 650px; */
+    /* width: vw; */
+    margin-bottom: 60px;
+}
+
+header img#contato{
+    width: 90px;
+    height: 90px;
+    
+    animation: rotacao 9s linear infinite;
+}
+@keyframes rotacao {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+} 
+
+header h1 {
+    font-family: var(--fonte);
+
+    font-size: 55px;
+    font-weight: 800;
+
+    line-height: 60px;
+    letter-spacing: -2px;
+    margin-left: 20px;
+
+}
+
+header h2{
+    /* border: 1px solid black; */
+     width: 80%;
+    /*height: 100px; */
+
+    font-family: var(--fonte);
+    font-weight: 300;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.842);
+
+    margin: 15px 0px 46px 22px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+header a{
+    font-style: italic;
+    /* text-decoration: none ;
+    font-family: var(--fonte);
+    /* font-weight: 500; */
+    /* font-size: 18px; */ 
+
+    /* padding: 15px;
+    margin: 0px 0px 0px 20px; */
+    
+
+    
+    /* border: 1px solid black; */
+    /* border-radius: 25px; */
+    /* color: rgba(0, 0, 0, 0.842); */
+
+}
+
+header a:hover{
+    color: var(--cor1);
+    /* background-color: black; */
+
+    /* transform: translateY(-5px); Translada a div para cima em 5 pixels */
+    
+    transition-duration: 0.3s;
+
+    
+
+    /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.541); */
+
+    
+
+}
+/*nao consigo fazer o botão se mover para cima*/
+
+header a:not(:hover){
+    /* background: white; */
+    color: black;
+    transition-duration: 0.3s;
+}
+
+                /*  fim do Cabeçario  */
+                    /*   --//--   */
+
+main h1 {
+    display: block;
+    font-family: var(--fonte);
+    /* font-size: ; */
+    margin: auto;
+    width: 98%;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
+
+main hr{
+    width: 85vw;
+    margin: 0px 0px 40px 10px;
+
+    height: 1px; /* Ajuste o valor conforme desejado */
+    background-color: black; /* Cor do traço horizontal */
+    border: none; /* Remove a borda padrão */
+
+    
+}
+  
+
+/*   --//--   */
+
+main div.caixa2{
+
+    /* border: 2px solid brown; */
+    border-radius: 10px;
+    width: 89vw;
+    height: px;
+    margin: 0px 0px 30px 0px;
+    padding: 10px;
+
+    display: flex; /* Adiciona flex container */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+
+    margin: 0px 0px 30px 0px ;
+}
+
+main div.caixa2:hover{
+    background-color: #147ce515;
+    color: var(--cor1);
+    transform: translateY(-5px); /* Translada a div para cima em 5 pixels */
+    transition-duration: 0.3s;
+}
+main div.caixa2:not(:hover){
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+main div img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+main h2{
+    
+    font-family: var(--fonte);
+    font-size: 27px;
+    font-weight: 400;
+    
+    margin: auto;
+    letter-spacing: -0px;
+
+    width: 95%; 
+    text-align: left;
+    
+
+
+}
+
+
+main div p{
+    font-family: var(--fonte);
+    font-size: 1.2em;
+    font-weight: 400;
+    
+    
+    width: 82vw;
+    text-align: left;
+}
+
+/*    fim do conteudo principal     */
+
+footer{
+    padding: 10px;
+
+}
+
+footer h2{
+    font-family: var(--fonte);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+
+}
+
+footer h2:hover {
+    transition: color 0.3s;
+    color: var(--cor1);
+}
+footer h2:not(:hover) {
+    transition: color 0.3s;
+    color: black;
+}
+
+footer section a {
+    display: inline-block; /* Coloca os links lado a lado */
+    margin: 0 0px; /* Adiciona espaçamento horizontal entre os links */
+}
+
+
+footer section img{
+    display: inline-block;
+    width: 47px;
+    margin: 10px 5px 0px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+footer section img:hover{
+    transition: transform 0.5s, background-color 8s;
+
+    background-color: #147ce5;
+    
+    transform: translate(-0px, -3px);
+}
+
+footer section img:not(:hover) {
+    transition: transform 0.5s, background-color 4s;
+
+    background-color: #ffffff;
+
+
+    transform: translate(-0px, 3px);
+
+}

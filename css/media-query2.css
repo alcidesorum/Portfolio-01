@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) and (max-width: 760px){
+    /* header{
+        /* height: 1000px;
+    } */
+
+    header section#caixa1{
+        margin: -10px 48px 63px -21px;
+    }
+
+    header img#contato{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    header img{
+        width: 250px;
+        height: 250px;
+
+    }
+     /* header section div#caixa88 {
+        border: 1px dashed rgb(161, 0, 0);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+        min-height: 150px;
+        max-width: 1450px;
+        min-width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+
+    } */
+
+    /* header section#caixa88{
+        border: 1px dashed rgb(161, 0, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline
+
+    } */
+
+    header h1{
+        display: inline-block;
+
+        width: 80%;
+        font-size: 90px;
+        line-height: 88px;
+    }
+
+    header h2{
+        font-size: 40px;
+        display: inline-block;
+
+    }
+
+    /* header a{
+        margin-top: 50px;
+    } */
+
+    /* fim do cabeçalho */
+
+    main h1{
+        font-size: 30px;
+    }
+
+    main div h2{
+        font-size: 40px;
+    }
+
+    main div p{
+        font-size: 2em;
+    }
+
+    footer h2{
+        font-size: 35px;
+    }
+
+    footer section img{
+        width: 60px;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 760px) and (max-width:990px){
+
+    header section#caixa1{
+        margin: -10px 48px 63px -21px;
+    }
+
+    header img#contato{
+        width: 170px;
+        height: 170px;
+    }
+
+
+    header img{
+        width: 280px;
+        height: 280px;
+
+    }
+
+    header h1{
+        display: inline-block;
+
+        width: 80%;
+        font-size: 90px;
+        line-height: 80px;
+    }
+
+    header h2{
+        font-size: 40px;
+        display: inline-block;
+
+    }
+
+    /* header a{
+        font-size: 25px; 
+        margin-top: 50px; 
+    } */
+
+
+    /*inicio do main*/
+
+    main h1{
+        font-size: 40px;
+    }
+
+    main div.caixa2{
+        margin: 0px 0px 60px 0px;
+    }
+
+    main div h2{
+        font-size: 50px;
+
+    }
+
+    main div p{
+        font-size: 2em;
+
+    }
+
+    /*inicio do footer*/
+
+    footer{
+        margin-bottom: 40px;
+        margin-top: 130px;
+    }
+
+    footer h2{
+        font-size: 45px;
+    }
+
+    footer section img{
+        width: 60px;
+    }
+
+
+}
+
+@media screen and (min-width: 990px ){
+    header section#caixa1{
+        margin: -10px 48px 25px -21px;
+    }
+
+    header img#contato{
+        width: 190px;
+        height: 190px;
+    }
+
+
+    header img{
+        width: 300px;
+        height: 300px;
+
+    }
+
+    header section#caixa88{
+        /* border: 1px dashed rgb(0, 16, 161); */
+        display: flex;
+         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+        /* margin: -100px 48px 9px -21px; */
+    }
+
+    header h1{
+        display: inline-block;
+
+        /* width: 80%; */
+        font-size: 85px;
+        line-height: 85px;
+        width: 97%;
+    }
+
+    /* header h2{
+        font-size: 40px;
+        display: inline-block;
+        width: 80%;
+        margin-left: 30%; 
+
+    } */
+
+    /* header a{
+        font-size: 25px; */
+        
+        /* margin-top: 100px; */
+    }
+
+    /*inicio do main*/
+
+    main h1{
+        font-size: 56px;
+    }
+
+    main div.caixa2{
+        margin: 30px 0px 80px 40px;
+    }
+
+    /* main div.caixa2 img{ */
+        
+
+    
+
+    main div h2{
+        font-size: 50px;
+
+    }
+
+    main div p{
+        font-size: 2em;
+
+    }
+
+    /*inicio do footer*/
+
+    footer{
+        margin-bottom: 40px;
+        margin-top: 130px;
+        margin-left: 35px;
+    }
+
+    footer h2{
+        font-size: 45px;
+    }
+
+    footer section img{
+        width: 60px;
+    }
+
+
+
+
+
+
+
