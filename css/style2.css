@@ -139,7 +139,7 @@ main h1 {
     display: block;
     font-family: var(--fonte);
     /* font-size: ; */
-    margin: auto;
+    margin:  30px auto;
     width: 98%;
     font-weight: 800;
     line-height: 60px;
@@ -201,7 +201,7 @@ main h2{
     font-size: 27px;
     font-weight: 400;
     
-    margin: auto;
+    margin: 20px auto;
     letter-spacing: -0px;
 
     width: 95%; 
