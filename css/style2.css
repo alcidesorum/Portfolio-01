@@ -132,8 +132,8 @@ header a:not(:hover){
     transition-duration: 0.3s;
 }
 
-                /*  fim do Cabeçario  */
-                    /*   --//--   */
+/*  fim do Cabeçario  */
+/*   --//--   */
 
 main h1 {
     display: block;
@@ -192,6 +192,7 @@ main div.caixa2:hover{
     transform: translateY(-5px); /* Translada a div para cima em 5 pixels */
     transition-duration: 0.3s;
 }
+
 main div.caixa2:not(:hover){
     background-color: white;
     transition-duration: 0.3s;
@@ -250,6 +251,7 @@ footer h2:hover {
     transition: color 0.3s;
     color: var(--cor1);
 }
+
 footer h2:not(:hover) {
     transition: color 0.3s;
     color: black;
