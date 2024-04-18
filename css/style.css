@@ -13,14 +13,15 @@
 :root{
     --fonte: 'Montserrat';
     --cor1: #147ce5;
+    /*as variaveis */
 }
 
 body{
     
     overflow-x: hidden;
     padding: 32px 16px 24px 16px;
-    /* animation: fade 0.4s ease-in-out ; */
-    /* desabilitei a animação por enquanto */
+    animation: fade 0.4s ease-in-out; /* animação da pag surgindo*/
+   
     
 }
 @keyframes fade {
@@ -32,7 +33,8 @@ body{
     }
 }
 
-                /*Cabeçario*/
+
+/*-------------------Cabeçario--------------------*/
 
 header section#caixa1{
     display: flex;
@@ -131,8 +133,11 @@ header a:not(:hover){
     transition-duration: 0.3s;
 }
 
-                /*  fim do Cabeçario  */
-                    /*   --//--   */
+/*-------------------Fim do Cabeçario--------------------*/
+
+
+
+/*-------------------Começo do main--------------------*/
 
 main h1 {
     display: block;
@@ -153,7 +158,7 @@ main hr{
 }
   
 
-/*   --//--   */
+/*-------------------//-----------------*/
 
 main div.caixa2{
 
@@ -217,7 +222,9 @@ main div p{
     text-align: left;
 }
 
-/*    fim do conteudo principal     */
+/*-------------------Fim do main--------------------*/
+
+/*-------------------Começo do Footer--------------------*/
 
 footer{
     padding: 10px;
@@ -273,3 +280,5 @@ footer section img:not(:hover) {
     transform: translate(-0px, 3px);
 
 }
+
+/*-------------------Fim do Footer--------------------*/

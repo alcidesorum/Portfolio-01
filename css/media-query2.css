@@ -51,8 +51,8 @@
         display: inline-block;
 
         width: 80%;
-        font-size: 90px;
-        line-height: 88px;
+        font-size: 42px;
+        line-height: 50px;
     }
 
     header h2{
@@ -69,10 +69,12 @@
 
     main h1{
         font-size: 30px;
+        width: 95%; 
     }
 
-    main div h2{
-        font-size: 40px;
+    main h2{
+        font-size: 18px;
+        
     }
 
     main div p{
@@ -115,8 +117,9 @@
         display: inline-block;
 
         width: 80%;
-        font-size: 90px;
-        line-height: 80px;
+        font-size: 65px;
+        line-height: 70px;
+    
     }
 
     header h2{
@@ -135,14 +138,15 @@
 
     main h1{
         font-size: 40px;
+        line-height: 37px;
     }
 
     main div.caixa2{
         margin: 0px 0px 60px 0px;
     }
 
-    main div h2{
-        font-size: 50px;
+    main h2{
+        font-size: 20px;
 
     }
 
@@ -223,6 +227,7 @@
 
     main h1{
         font-size: 56px;
+        line-height: 61px;
     }
 
     main div.caixa2{
@@ -234,8 +239,8 @@
 
     
 
-    main div h2{
-        font-size: 50px;
+    main h2{
+        font-size: 30px;
 
     }
 
